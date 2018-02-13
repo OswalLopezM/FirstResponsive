@@ -15,7 +15,8 @@
                     <!-- logotipo -->
                     <img src="images/invie.png" width="186" height="60" alt="Logotipo Invie"/>
                 </figure>
-                <nav class="menu">
+                <spam id="burger-button" class="burger-button icon-menu"></spam>
+                <nav id="menu" class="menu">
                     <ul>
                         <li><a href="index.html">home</a></li>
                         <li><a href="#guitarras">Guitarras</a></li>
@@ -108,5 +109,14 @@
             </div>
             
         </footer>
+        <script>
+            var $burgerButton = document.getElementById('burger-button');
+            var $menu = document.getElementById('menu');
+            $burgerButton.addEventListener('touchstart',function(){
+                $menu.classList.toggle('active');
+            })
+            
+        </script>
+
     </body>
 </html>
