@@ -289,6 +289,7 @@ menu a {
     top: 20px;
     cursor: pointer;
     z-index: 3;
+    visibility: hidden;
 }
 
 @media screen and (max-width: 800px){
@@ -433,6 +434,10 @@ menu a {
         display: flex;
         align-items: center;
         transition: .3s;
+    }
+
+    .burger-button{
+        visibility: visible;
     }
 
     .menu.active{
