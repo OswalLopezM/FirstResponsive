@@ -290,9 +290,118 @@ menu a {
         height: auto;
     }
 
+    .contenedor-guitarra-a{
+        padding: 0;
+    }
+
     .contenedor-guitarra-b{
         margin: 0px;
         position: static;
     }
     /* guitarras */
+}
+
+@media screen and (max-width: 767px){
+    .footer .contenedor{
+        display: block;
+        
+    }
+
+    .contacto{
+        margin: 0 auto;
+    }
+
+    .formulario{
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .intereses label{
+        display: block;
+        font-size: 16px;
+    }
+
+    input[type=text], input[type=email]{
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    input[type=radio], input[type=checkbox]{
+        zoom: 1.5;
+    }
+
+    textarea{
+        width: 100%;
+    }
+
+    .col1{
+        margin: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 650px){
+
+    .header{
+        text-align: center;
+    }
+
+    .menu{
+        position: static;
+        display: block;
+        margin: 0px;
+    }
+
+    .menu li:first-child{
+        margin: 0px;
+    }
+
+    .menu ul{
+        padding: 0px;
+    }
+
+
+}
+
+@media screen and (max-width: 500px){
+    
+    /* portada */
+    .menu li{
+        display: block;
+        margin: 0px;
+        padding: 8px 0;
+        border-bottom: 1px solid white; 
+    }
+
+    .menu li:first-child{
+        border-top: 1px solid white;
+    }
+
+    .portada{
+        text-align: center;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .tittle-a{
+        font-size: 16px;
+    }
+
+    
+    /* portada */
+    /* guitarras */
+    .guitarra img{
+        width: 200px;
+    }
+
+    .tittle-b{
+        font-size: 30px;
+    }
+    /* guitarras */
+    
+
 }
